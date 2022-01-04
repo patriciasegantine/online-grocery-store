@@ -210,8 +210,6 @@
     background: var(--secondary);
     padding: 20px 0;
     flex-direction: column;
-    transition: 0.6s;
-    overflow-y: auto;
   }
 
   .nav li {

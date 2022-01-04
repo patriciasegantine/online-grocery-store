@@ -1,0 +1,44 @@
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 36px auto;
+}
+
+.home-image {
+  flex: 1 1 450px;
+}
+
+.home-image img {
+  max-width: 100%;
+}
+
+.home-content {
+  flex: 1 1 450px;
+}
+
+.home-content span {
+  font-size: 2.5em;
+  color: #666;
+}
+.home-content h3 {
+  font-size: 4em;
+  line-height: 1;
+  margin: 20px auto;
+  color: var(--secondary);
+}
+.home-content .btn {
+  display: inline-block;
+  margin-top: 16px;
+  background:var(--primary);
+  color: #fff;
+  padding: 10px 25px;
+  font-size: 1.5em;
+  text-align: center;
+  cursor: pointer;
+}
+
+.home-content .btn:hover {
+  background: var(--secondary);
+}
