@@ -41,6 +41,10 @@
   color: #333;
 }
 
+.banner img:hover {
+  transform: scale(1.2) rotate(-5deg);
+}
+
 
 
 /* media queries */
@@ -51,6 +55,6 @@
   }
 
   .banner {
-    flex: 1 1 300px;
+    flex: 1 1 400px;
   }
 }

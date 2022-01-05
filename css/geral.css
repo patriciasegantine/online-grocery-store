@@ -45,8 +45,41 @@ body {
   cursor: pointer;
 }
 
+.btn:hover {
+  
+  background: var(--secondary)
+  
+}
+
+
 @media (min-width: 1221px) {
   .html {
     font-size: 120%;
   }
+}
+
+@media (max-width: 1200px) {
+  html {
+    font-size: 80%;
+  }
+}
+
+@media (max-width: 991px) {
+  html {
+    font-size: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 80%;
+  }
+
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 60%;
+  }
+
 }
