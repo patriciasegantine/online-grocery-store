@@ -3,6 +3,9 @@
 :root {
   --primary: #27ae60;
   --secondary: #3d3d42;
+  --light-color: #665;
+  --box-shadow: 0 10px 16px rgba(0,0,0,.1);
+  --border: 16px solid rgba(0,0,0,.1);
 }
 
 /* reset */
@@ -14,6 +17,7 @@
   list-style: none;
   text-decoration: none;
   border: none;
+  transition: all .2s linear;
 }
 
 html {
@@ -49,6 +53,19 @@ body {
   
   background: var(--secondary)
   
+}
+
+.heading {
+  text-align: center;
+  color: var(--secondary);
+  text-transform: uppercase;
+  padding: 40px;
+  font-size: 3em;
+}
+
+.heading-span {
+  color: var(--primary);
+  text-transform: uppercase;
 }
 
 

@@ -20,7 +20,7 @@
 
 .home-content span {
   font-size: 2.5em;
-  color: #666;
+  color: var(--light-color);
 }
 
 .home-content h3 {
@@ -29,8 +29,6 @@
   margin: 20px auto;
   color: var(--secondary);
 }
-
-
 
 .home-content .btn:hover {
   background: var(--secondary);

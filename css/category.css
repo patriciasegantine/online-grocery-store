@@ -1,0 +1,38 @@
+
+.category-box-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.category-box {
+  flex: 1 1 400px;
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: 10px;
+  text-align: center;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.category-box img {
+  width: 320px;
+  margin: 10px 0;
+}
+
+.category-box h3 {
+  font-size: 2.5em;
+  color: var(--secondary);
+}
+
+.category-box span {
+  font-size: 1.2em;
+  color: var(--light-color);
+  padding: 10px;
+}
+
+.box .btn {
+  width: 280px;
+}
