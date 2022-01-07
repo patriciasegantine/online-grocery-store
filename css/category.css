@@ -1,24 +1,22 @@
 
 .category-box-container {
   display: flex;
-  gap: 20px;
   flex-wrap: wrap;
+  gap: 20px;
 }
 
 .category-box {
-  flex: 1 1 30rem;
-  border: 1px solid rgba(0,0,0,.3);
+  flex: 1 1 450px;
+  border: var(--border);
   border-radius: 10px;
   text-align: center;
-  padding: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  padding: 32px;
+    overflow: hidden;
+
 }
 
 .category-box img {
-  width: 320px;
+  height: 320px;
   margin: 10px 0;
 }
 
@@ -34,5 +32,6 @@
 }
 
 .category-box .btn {
-  width: 280px;
+  display: block;
+  width: 100%;
 }

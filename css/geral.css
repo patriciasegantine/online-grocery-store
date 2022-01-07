@@ -19,16 +19,14 @@
   text-decoration: none;
   border: none;
   transition: all 0.2s linear;
+  font-family: 'Nunito', sans-serif;
+
 }
 
 html {
   overflow-x: hidden;
   scroll-padding-top: 6.5rem;
   scroll-behavior: smooth;
-}
-
-body {
-  font-family: 'Nunito', sans-serif;
 }
 
 /*  */

@@ -1,0 +1,38 @@
+.contact {
+  margin: 40px auto;
+}
+
+.contact-form {
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 16px;
+  border: var(--border);
+}
+
+.contact-form .input-box {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.contact-form :is(input, textarea) {
+  flex: 1;
+  padding: 16px;
+  font-size: 1em;
+  background: #f7f7f7;
+  margin: 10px 0;
+  border: var(--border);
+}
+
+.contact-form textarea {
+  width: 100%;
+  resize: none;
+}
+
+@media (max-width: 991px) {
+  .contact-form .input-box {
+    flex-direction: column;
+    gap: 0;
+  }
+}
