@@ -27,6 +27,7 @@
 
 .category-box span {
   font-size: 1.2em;
+  display: block;
   color: var(--light-color);
   padding: 10px;
 }
