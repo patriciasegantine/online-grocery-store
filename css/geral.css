@@ -4,9 +4,9 @@
   --primary: #27ae60;
   --secondary: #3d3d42;
   --light-color: #665;
-  --border: 1px solid rgba(0,0,0,.2);
-  --border-bold: 14px solid rgba(0,0,0,.1);
-  --box-shadow: 0 10px 16px rgba(0,0,0,.1);
+  --border: 1px solid rgba(0, 0, 0, 0.2);
+  --border-bold: 14px solid rgba(0, 0, 0, 0.1);
+  --box-shadow: 0 10px 16px rgba(0, 0, 0, 0.1);
 }
 
 /* reset */
@@ -18,7 +18,7 @@
   list-style: none;
   text-decoration: none;
   border: none;
-  transition: all .2s linear;
+  transition: all 0.2s linear;
 }
 
 html {
@@ -29,7 +29,6 @@ html {
 
 body {
   font-family: 'Nunito', sans-serif;
-  height: 3000px;
 }
 
 /*  */
@@ -51,9 +50,7 @@ body {
 }
 
 .btn:hover {
-  
-  background: var(--secondary)
-  
+  background: var(--secondary);
 }
 
 .heading {
@@ -68,7 +65,6 @@ body {
   color: var(--primary);
   text-transform: uppercase;
 }
-
 
 @media (min-width: 1221px) {
   .html {
@@ -92,12 +88,10 @@ body {
   html {
     font-size: 80%;
   }
-
 }
 
 @media (max-width: 450px) {
   html {
     font-size: 60%;
   }
-
 }
