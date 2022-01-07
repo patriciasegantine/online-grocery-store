@@ -4,6 +4,7 @@ export default function menuMObile() {
 
   function toggleMenu() {
     btnMobile.classList.toggle('fa-times');
+    
     navMenu.classList.toggle('active');
   }
 

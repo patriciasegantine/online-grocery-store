@@ -6,8 +6,8 @@
 }
 
 .category-box {
-  flex: 1 1 400px;
-  border: 1px solid rgba(0,0,0,.2);
+  flex: 1 1 30rem;
+  border: 1px solid rgba(0,0,0,.3);
   border-radius: 10px;
   text-align: center;
   padding: 30px;
@@ -33,6 +33,6 @@
   padding: 10px;
 }
 
-.box .btn {
+.category-box .btn {
   width: 280px;
 }

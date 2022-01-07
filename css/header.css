@@ -61,6 +61,7 @@
 .navbar-container {
   background: #fff;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  
 }
 
 .navbar {
@@ -69,7 +70,7 @@
   justify-content: space-between;
   padding: 30px 0;
   position: relative;
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -94,6 +95,15 @@
   gap: 10px;
   justify-content: space-between;
   align-items: center;
+  /* transition: none; */
+
+  
+  
+}
+
+.nav li {
+  transition: none;
+
 }
 
 .nav a {
@@ -101,7 +111,11 @@
   font-size: 1.3em;
   border-radius: 4px;
   color: var(--secondary);
+  transition: none;
+
 }
+
+
 
 .nav a:hover {
   background: var(--primary);
@@ -132,6 +146,7 @@
   left: 0;
   right: 0;
   z-index: 1000;
+
 }
 
 /* start Medias Queries */
@@ -145,7 +160,7 @@
   .btn-menu {
     display: initial;
     padding: 6px;
-    margin-left: 5%;
+    margin-left: 10%;
   }
 
   .navbar {
@@ -178,7 +193,7 @@
   }
 
   .icons {
-    margin-right: 5%;
+    margin-right: 10%;
   }
 
   /* JavaScript Start */
