@@ -4,6 +4,7 @@
   --primary: #27ae60;
   --secondary: #3d3d42;
   --light-color: #665;
+  --black:#130f40;
   --border: 1px solid rgba(0, 0, 0, 0.2);
   --border-bold: 14px solid rgba(0, 0, 0, 0.1);
   --box-shadow: 0 10px 16px rgba(0, 0, 0, 0.1);
@@ -45,6 +46,8 @@ html {
   font-size: 1.2em;
   text-align: center;
   cursor: pointer;
+  border-radius: 5px;
+
 }
 
 .btn:hover {

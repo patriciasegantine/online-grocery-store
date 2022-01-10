@@ -22,7 +22,7 @@
 .newsletter-form input {
   flex: 3;
   font-size: 1em;
-  padding: 10px;
+  padding: 10px 20px;
   height: 100%;
 }
 
@@ -30,6 +30,7 @@
   flex: 1;
   height: 100%;
   margin: 0;
+  border-radius: 0;
 }
 
 

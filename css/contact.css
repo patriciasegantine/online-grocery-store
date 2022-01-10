@@ -8,6 +8,8 @@
   margin: 0 auto;
   padding: 16px;
   border: var(--border);
+  border-radius: 5px;
+
 }
 
 .contact-form .input-box {
@@ -23,6 +25,7 @@
   background: #f7f7f7;
   margin: 10px 0;
   border: var(--border);
+  border-radius: 5px;
 }
 
 .contact-form textarea {

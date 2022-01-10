@@ -6,7 +6,7 @@
 }
 
 .category-box {
-  flex: 1 1 450px;
+  flex: 1 1 390px;
   border: var(--border);
   border-radius: 10px;
   text-align: center;
