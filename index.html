@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Grocery Store</title>
 
+    <!-- Swiper -->
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
     <!-- font awesome -->
     <link
       rel="stylesheet"
@@ -45,6 +52,8 @@
             <li><a href="#category">Category</a></li>
             <li><a href="#product">Product</a></li>
             <li><a href="#deal">Deal</a></li>
+            <li><a href="#review">Review</a></li>
+            <li><a href="#blog">Blog</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
 
@@ -61,17 +70,15 @@
     <!-- home section -->
 
     <section class="home" id="home">
-
       <div class="container">
         <div class="home-image">
           <!-- <img src="assets/img/home-img.png" alt="" /> -->
         </div>
         <div class="home-content">
-          <span>Fresh and Organic</span>
-          <h3>Your daily need products</h3>
+          <h3>Fresh and Organic</h3>
+          <span>Your daily need products</span>
           <a href="#" class="btn">Get started</a>
         </div>
-        
       </div>
     </section>
 
@@ -682,7 +689,6 @@
           </div>
           <a href="#" class="btn">add to cart</a>
         </div>
-
       </div>
     </section>
 
@@ -751,6 +757,96 @@
       </form>
     </section>
 
+    <!-- reviews section -->
+
+    <section class="review container" id="review">
+      <h1 class="heading">
+        Costumer`s <span class="heading-span">Review</span>
+      </h1>
+
+      <!-- Slider main container -->
+      <div class="swiper review-slider">
+        
+        <div class="swiper-wrapper review-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide review-box">
+            <img src="assets/img/pic-1.png" alt="" />
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa
+              praesentium, laboriosam voluptas aliquam at veniam quasi deserunt
+              odit quas dolor.
+            </p>
+            <h3>John Deo</h3>
+            <div class="review-stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+
+          <div class="swiper-slide review-box">
+            <img src="assets/img/pic-2.png" alt="" />
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa
+              praesentium, laboriosam voluptas aliquam at veniam quasi deserunt
+              odit quas dolor.
+            </p>
+            <h3>John Deo</h3>
+            <div class="review-stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+
+          <div class="swiper-slide review-box">
+            <img src="assets/img/pic-4.png" alt="" />
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa
+              praesentium, laboriosam voluptas aliquam at veniam quasi deserunt
+              odit quas dolor.
+            </p>
+            <h3>John Deo</h3>
+            <div class="review-stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+
+          <div class="swiper-slide review-box">
+            <img src="assets/img/pic-3.png" alt="" />
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa
+              praesentium, laboriosam voluptas aliquam at veniam quasi deserunt
+              odit quas dolor.
+            </p>
+            <h3>John Deo</h3>
+            <div class="review-stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+        <!-- navigation buttons -->
+        <!-- <button class="swiper-button-prev btn-caroussel"></button> -->
+        <!-- <button class="swiper-button-next btn-caroussel"></button> -->
+      </div>
+      
+    </section>
+
     <!-- newsletter -->
 
     <section class="newsletter">
@@ -781,6 +877,11 @@
             <a href="#" class="btn fab fa-twitter"></a>
             <a href="#" class="btn fab fa-instagram"></a>
             <a href="#" class="btn fab fa-linkedin"></a>
+          </div>
+
+          <div>
+            <p>payment</p>
+            <img src="assets/img/payment.png" alt="" />
           </div>
         </div>
 
@@ -826,7 +927,10 @@
       </div>
     </footer>
 
-    <!-- custom js file -->
+    <!-- custom JS -->
     <script type="module" src="js/app.js"></script>
+
+    <!-- swiper JS -->
+    <!-- <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script> -->
   </body>
 </html>

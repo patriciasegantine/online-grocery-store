@@ -55,6 +55,8 @@
 
 .search-box-container label:hover {
   background: var(--secondary);
+  transition: var(--transition);
+
 }
 
 .navbar-container {
@@ -86,6 +88,8 @@
 .btn-menu:hover {
   border: 1px solid var(--primary);
   color: var(--primary);
+  transition: var(--transition);
+
 }
 
 .nav {
@@ -102,7 +106,7 @@
 
 .nav a {
   padding: 10px 15px;
-  font-size: 1.3em;
+  font-size: 1.1em;
   border-radius: 4px;
   color: var(--secondary);
   transition: none;
@@ -111,6 +115,8 @@
 .nav a:hover {
   background: var(--primary);
   color: #fff;
+  transition: var(--transition);
+
 }
 
 .icons {
@@ -127,6 +133,8 @@
 
 .icons a:hover {
   color: var(--primary);
+  transition: var(--transition);
+
 }
 
 /* JavaScript start */
@@ -137,6 +145,8 @@
   left: 0;
   right: 0;
   z-index: 1000;
+  transition: var(--transition);
+
 }
 
 /* start Medias Queries */
@@ -189,6 +199,8 @@
 
   .nav.active {
     visibility: visible;
+  transition: var(--transition);
+
   }
 }
 

@@ -8,6 +8,8 @@
   --border: 1px solid rgba(0, 0, 0, 0.2);
   --border-bold: 14px solid rgba(0, 0, 0, 0.1);
   --box-shadow: 0 10px 16px rgba(0, 0, 0, 0.1);
+  --transition: 0.3s linear;
+  --swiper-theme-color: var(--primary)
 }
 
 /* reset */
@@ -19,7 +21,7 @@
   list-style: none;
   text-decoration: none;
   border: none;
-  transition: all 0.2s linear;
+  /* transition: all 0.2s linear; */
   font-family: 'Nunito', sans-serif;
 
 }
@@ -43,7 +45,7 @@ html {
   background: var(--primary);
   color: #fff;
   padding: 10px 25px;
-  font-size: 1.2em;
+  font-size: 1em;
   text-align: center;
   cursor: pointer;
   border-radius: 5px;
@@ -52,6 +54,7 @@ html {
 
 .btn:hover {
   background: var(--secondary);
+  transition: var(--transition);
 }
 
 .heading {

@@ -1,12 +1,13 @@
 
 .category-box-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  /* flex-wrap: wrap; */
+  gap: 15px;
 }
 
 .category-box {
-  flex: 1 1 390px;
+  /* flex: 1 1 390px; */
   border: var(--border);
   border-radius: 10px;
   text-align: center;
@@ -16,7 +17,7 @@
 }
 
 .category-box img {
-  height: 320px;
+  height: 250px;
   margin: 10px 0;
 }
 
