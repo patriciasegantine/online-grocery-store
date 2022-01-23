@@ -27,15 +27,11 @@
 
     <header class="header">
       <!-- search bar -->
-      <div class="search-bar-container">
-        <div class="container search-bar">
+      <div class="header-logo-container">
+        <div class="container header-logo">
           <a href="#" class="logo">
             <i class="fas fa-shopping-basket"></i> Better</a
           >
-          <form action="" class="search-box-container">
-            <input type="search" id="search-box" placeholder="search here..." />
-            <label for="search-box" class="fas fa-search"></label>
-          </form>
         </div>
       </div>
 
@@ -44,6 +40,7 @@
       <div class="navbar-container">
         <nav class="navbar">
           <!-- btn-menu-mobile -->
+
           <div id="menu-bar" class="fas fa-bars btn-menu"></div>
 
           <!-- menu -->
@@ -57,11 +54,62 @@
             <li><a href="#contact">Contact</a></li>
           </ul>
 
-          <!-- icons-menu -->
+          <!-- menu-icons -->
           <div class="icons">
+            <a class="fas fa-search btn-search" href="#"></a>
             <a class="fas fa-shopping-cart" href="#"></a>
             <a class="fas fa-heart" href="#"></a>
             <a class="fas fa-user-circle" href="#"></a>
+          </div>
+
+          <!-- search bar -->
+
+          <form action="" class="search-form">
+            <input
+              type="search"
+              id="search-box"
+              class="search-box"
+              placeholder="search here..."
+            />
+            <button
+              for="search-box"
+              class="fas fa-search btn-search-box"
+            ></button>
+          </form>
+
+          <!-- shopping cart -->
+
+          <div class="shopping-cart">
+            <button class="shopping-btn-close"></button>
+            <div class="shopping-box">
+              <img src="assets/img/cart-img-1.png" alt="" />
+              <div class="shopping-content">
+                <h3>Watermelon</h3>
+                <span class="shopping-price"> £4.99 </span>
+                <span class="shopping-quantity"> qty: 1 </span>
+              </div>
+              <a href=""><i class="fas fa-trash"></i></a>
+            </div>
+
+            <div class="shopping-box">
+              <img src="assets/img/cart-img-2.png" alt="" />
+              <div class="shopping-content">
+                <h3>Onion</h3>
+                <span class="shopping-price"> £4.99 </span>
+                <span class="shopping-quantity"> qty: 1 </span>
+              </div>
+              <a href=""><i class="fas fa-trash"></i></a>
+            </div>
+
+            <div class="shopping-box">
+              <img src="assets/img/cart-img-3.png" alt="" />
+              <div class="shopping-content">
+                <h3>Chicken</h3>
+                <span class="shopping-price"> £4.99 </span>
+                <span class="shopping-quantity"> qty: 1 </span>
+              </div>
+              <a href=""><i class="fas fa-trash"></i></a>
+            </div>
           </div>
         </nav>
       </div>
@@ -766,7 +814,6 @@
 
       <!-- Slider main container -->
       <div class="swiper review-slider">
-        
         <div class="swiper-wrapper review-wrapper">
           <!-- Slides -->
           <div class="swiper-slide review-box">
@@ -844,7 +891,6 @@
         <!-- <button class="swiper-button-prev btn-caroussel"></button> -->
         <!-- <button class="swiper-button-next btn-caroussel"></button> -->
       </div>
-      
     </section>
 
     <!-- newsletter -->

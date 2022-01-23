@@ -2,11 +2,6 @@
   margin: 60px auto;
 }
 
-.review-slider {
-  /* max-width: 1000px !important; */
-}
-
-
 .review-box {
   border: 1px solid transparent;
   border-radius: 10px;
@@ -16,11 +11,6 @@
   box-shadow: var(--box-shadow);
   transition: 0.2s linear;
   margin: 30px auto;
-}
-
-.review-box:hover {
-  /* border: 1px solid var(--light-color); */
-  transform: scale(1.1);
 }
 
 .review-box img {
